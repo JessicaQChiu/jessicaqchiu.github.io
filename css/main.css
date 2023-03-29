@@ -151,8 +151,13 @@ hr.hrLanding {
     margin-bottom: 2em;
 }
 
+
 a.text-link {
     color: rgb(184, 197, 253)!important;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color:rgb(184, 197, 253);
 }
 
 /*--- Social Media ---*/
