@@ -28,8 +28,9 @@ header,
     height: 100%;
 }
 h1 {
+    margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 75px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 1em;
     color: rgb(255, 255, 255);
@@ -59,21 +60,14 @@ h4 {
     text-transform: uppercase;
     color: rgb(0, 0, 0);
 }
-h5 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    line-height: 1.5em;
-    color: rgb(255, 255, 255);
-}
-h5 a {
-    color: rgb(255, 255, 255);
-}
+
 h6 {
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
     line-height: 1.5em;
     color: rgb(255, 255, 255);
 }
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -82,8 +76,20 @@ p {
 p.subtitle {
     font-style: italic;
 }
+
 ul > li {
     display:inline;
+}
+
+.intro {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: rgb(255, 255, 255);
+}
+.intro a {
+    color: rgb(255, 255, 255);
 }
 
 /*--- Landing screen ---*/
@@ -151,8 +157,13 @@ hr.hrLanding {
     margin-bottom: 2em;
 }
 
+
 a.text-link {
     color: rgb(184, 197, 253)!important;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color:rgb(184, 197, 253);
 }
 
 /*--- Social Media ---*/
