@@ -129,10 +129,12 @@ hr.hrLanding {
 .navbar-nav li a:hover {
     color: rgb(184, 197, 253)!important;
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 .navbar-nav li.active a {
     color: rgb(184, 197, 253)!important;
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 /*--- Main content ---*/
@@ -161,8 +163,10 @@ hr.hrLanding {
 a.text-link {
     color: rgb(184, 197, 253)!important;
 }
-.underline{
+
+.underline-heading{
     text-decoration: underline;
+    text-underline-offset: 5px;
     text-decoration-color:rgb(184, 197, 253);
 }
 
@@ -180,6 +184,12 @@ a.text-link {
     color: rgb(184, 197, 253)!important;
 }
 
+/*--- Smooth scroll links ---*/
+
+.smoothscroll .btn:hover {
+    color: rgb(184, 197, 253)!important;
+}
+
 /*--- Footer ---*/
 
 footer {
@@ -190,6 +200,7 @@ footer {
 }
 footer a {
     text-decoration: underline;
+    text-underline-offset: 3px;
     color: rgb(255, 255, 255)!important;
 }
 footer a:hover {
