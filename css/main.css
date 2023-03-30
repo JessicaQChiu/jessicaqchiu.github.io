@@ -159,7 +159,6 @@ hr.hrLanding {
     margin-bottom: 2em;
 }
 
-
 a.text-link {
     color: rgb(184, 197, 253)!important;
 }
@@ -167,7 +166,27 @@ a.text-link {
 .underline-heading{
     text-decoration: underline;
     text-underline-offset: 5px;
-    text-decoration-color:rgb(184, 197, 253);
+    text-decoration-color:rgb(184, 197, 253) !important;
+}
+
+.underline-link{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color:rgb(184, 197, 253)!important;
+}
+
+.underline-link:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color:rgb(43, 43, 43) !important;
+}
+
+.portfolio-item a{
+    color: rgb(43, 43, 43) !important;
+}
+
+.portfolio-item a:hover{
+    color: rgb(86, 95, 138) !important;
 }
 
 /*--- Social Media ---*/
